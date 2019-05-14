@@ -8,3 +8,5 @@
 
 # 项目分析
 ![项目分析图](https://github.com/TrimGHU/crawler/blob/master/crawler.jpg)
+
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
