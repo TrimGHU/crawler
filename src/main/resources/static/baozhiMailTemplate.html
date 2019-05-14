@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>环球时报</title>
+    </head>
+    <body>
+    	<h3 th:text="'环球时报' +  ${date} "></h3>
+        
+        <div th:each="image:${images}">
+        	<img th:src="${image}" ></img>
+        </div>
+    </body>
+</html>

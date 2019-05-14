@@ -1,0 +1,23 @@
+server:
+  port: 9999
+  context-path: /crawler
+spring:
+  application:
+    name: crawler
+  mail:
+    host: smtp.126.com
+    username: hugui_19870607@126.com
+    password: xxxxxxxxx
+    default-encoding: UTF-8
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+    
+logging:
+  level:
+    root: INFO
+    
